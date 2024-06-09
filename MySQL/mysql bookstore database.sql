@@ -4,7 +4,8 @@ USE BOOKSTORE;
 -- ----------TABLE FOR BOOKS---------- 
 
 CREATE TABLE BOOKS ( 
- bookID int primary key
+ bookID int primary key,
+ publisherID int
 );
 
 -- ----------TABLE FOR AUTHORS--------- 
