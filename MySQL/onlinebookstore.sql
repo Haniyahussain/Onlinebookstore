@@ -6,7 +6,8 @@ USE BOOKSTORE;
 CREATE TABLE BOOKS ( 
  bookID int primary key,
  authorID int,
- publisherID int
+ publisherID int,
+ emailID varchar(50)
 );
 
 -- ----------TABLE FOR AUTHORS--------- 
